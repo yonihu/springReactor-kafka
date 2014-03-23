@@ -42,16 +42,7 @@ public class Application implements CommandLineRunner {
     
     @Autowired
     private Publisher publisher;
-    
-    @Bean
-    Integer numberOfJokes() {
-        return 10;
-    }
-    
-    @Bean
-    public CountDownLatch latch(Integer numberOfJokes) {
-        return new CountDownLatch(numberOfJokes);
-    }
+
     
     @Override
     public void run(String... args) throws Exception {        
