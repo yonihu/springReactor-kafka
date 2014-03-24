@@ -1,5 +1,4 @@
-hello\Receiver.class
-hello\JokeResource.class
-hello\Joke.class
-hello\Publisher.class
-hello\Application.class
+kafkaReactor\Data.class
+kafkaReactor\Publisher.class
+kafkaReactor\Application.class
+kafkaReactor\Receiver.class
